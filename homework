@@ -1,0 +1,36 @@
+// library includes
+// #include <library name>
+
+/*
+this line explains the comment "//" meaning to ignore everything so it does not RUN which is important because it tells someone who is reading the code and someone who wrote the code what is happening exactly
+the symbol "#" tells it to perform an instruction
+the word include tells the language which is c++ to bring in the library
+the symbol <> basically hold the library name
+the "library name" inside those <> is basically the place holder for the name of the library
+*/
+
+#include<iostream>
+
+/*
+the symbol # basically tells C++ that this is a instruction
+the word include means that we want to bring something into our program.
+the symbol < > basically hold the name for the library
+iostream is basically a library that gives us do an input and output for example like printing something on the screen.
+*/
+
+// specific objects from library
+using std::cout;
+
+/*
+the word using tells us that we want to use something
+std means the C++ library
+the symbol :: means the look inside the std
+the word cout is basically used to print things on the screen
+the symbol ; which I think is the one of the more important symbols because some people tend to forget to use it and it basically means that the intsruction has ended
+*/
+
+//entrypoint
+int main(){
+    cout<<"hello world";
+    return 0
+}
