@@ -41,6 +41,22 @@ cout<<board [2][0]<<" "<<board[2][1]<<" "<<board[2][2]<< endl;
 //lastly the final row in which i used to show the third row number is 2
 //all of this together should show something like line 10-12
 
+cout << "Player"<<player<<"enter row (0-2):";
+cin>>row;
+
+cout<<"Enter column (0-2):";
+
+
+
+
+    {else{
+        cout<<"space is already taken"<<endl;
+        {
+        }else{
+            cout<<"invalid position"<<endl;
+        
+
+    
 return 0;
 //uised it to tell the computer the program ginished successfully and it is inside thw ile loop so the program stops 
 //after displaying the board once
